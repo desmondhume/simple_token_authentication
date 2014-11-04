@@ -7,7 +7,7 @@ module SimpleTokenAuthentication
       extend SimpleTokenAuthentication::Adapter
 
       def self.base_class
-        
+        ::ActionController::API
       end
     end
   end
